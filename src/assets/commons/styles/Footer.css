@@ -1,0 +1,18 @@
+.Footer {
+    /* Posicionar abajo */
+    position: absolute;
+    bottom: 0;
+    /* Ocupar todo el ancho disponible */
+    width: 100%;
+    min-height: 18vh;
+    /* Solo para probar cómo se ve */
+    background: #A5D7E8
+}
+.Footer ul {
+    text-align:center;
+    justify-content: space-between;  
+    list-style-type: none; 
+    flex-direction: row;
+    font-size: 20px; 
+    color:white
+    }
