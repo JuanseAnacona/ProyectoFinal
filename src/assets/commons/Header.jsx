@@ -8,10 +8,9 @@ const Header = () => {
     return (
         <header> 
             <div className="Header">
-            <img src={logo} alt="logo" /> <h1>Mega Games</h1>
+                <img src={logo} alt="logo" /> <h1>Mega Games</h1>
             </div>
-            <div id="pagina">	
-    </div>
+            <div id="pagina"></div>
         </header>  
     );
 }
