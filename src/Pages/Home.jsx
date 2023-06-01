@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Home.css"
+import './StylesPages/home.css'
 
 const Home = () => {
     return (
@@ -7,7 +7,7 @@ const Home = () => {
             <section className="banner">
                 <h2>Bienvenido a nuestra tienda de videojuegos</h2>
                 <p>Explora nuestra amplia selección de juegos y encuentra las últimas novedades.</p>
-                <a href="#" className="cta-button">Ver juegos</a>
+                <a href="Juegos" className="cta-button">Ver juegos</a>
             </section>
 
             <section className="games">

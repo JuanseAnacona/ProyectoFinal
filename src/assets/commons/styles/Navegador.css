@@ -1,9 +1,9 @@
 #navegador ul{
    background-color: #19376D;
     list-style-type: none;
-    text-align: center;
-    justify-content: space-between ;
+   text-align: center;
     font-size: 50px;
+    padding: 9px;
  }
 
  #navegador li{
@@ -13,12 +13,14 @@
  }
 
  #navegador li a {
-    padding: 20px 70px 20px 70px;
+    padding: 10px 200px 10px 200px;
     color: white;
     text-decoration: none;
+    
  }
 
  #navegador li a:hover{
     background-color: #A5D7E8;
     color: #ffffff;
+    
  }
