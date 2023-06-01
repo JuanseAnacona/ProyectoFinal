@@ -1,32 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@100&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: larger;
     margin: 0;
     padding: 0;
+    background-color:#576CBC ;
+  }
+
+.slider {
+ width: 800%;
+ height: 800%;
+ margin: auto;
+}
+  
+  section.banner {
+    
+    background-color: #576CBC;
+    padding: 40px;
+    
   }
   
   
-  section.banner {
-    background-color: #f2f2f2;
-    padding: 40px;
+  #Banner.h2{
     text-align: center;
   }
   
   section.banner h2 {
+    padding-top:  40px;
     margin: 0;
+    text-align: center;
   }
-  
-  section.games {
-    padding: 40px;
+
+  section.banner p{
+    text-align: center;
   }
-  
-  section.games h2 {
-    margin: 0;
-    margin-bottom: 20px;
+  section.banner a{
+    text-align: center;
+    text-decoration: none;
   }
-  
-  .game-card {
-    display: inline-block;
-    vertical-align: top;
-    width: 300px;
-    margin-right: 20
+  section li{
+    padding-top: 40px;
   }
+
+
+ 

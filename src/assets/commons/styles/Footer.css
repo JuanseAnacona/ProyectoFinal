@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@100&display=swap');
+
 .Footer {
+    
     /* Posicionar abajo */
     position: bottom;
     bottom: 0;
@@ -6,7 +9,7 @@
     width: 100%;
     min-height: 18vh;
     /* Solo para probar cómo se ve */
-    background: #576CBC;
+    background: #0B2447;
 }
 .Footer ul {
     text-align:center;
@@ -16,3 +19,9 @@
     font-size: 20px; 
     color:white
     }
+.Footer p{
+    font-size: 50px;
+    padding-top: 40px;
+    color: aliceblue;
+    text-align: center;
+}

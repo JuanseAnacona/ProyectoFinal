@@ -3,7 +3,7 @@ import Footer from './assets/commons/Footer'
 import Navegador from './assets/commons/Navegador'
 
 
-const Error() {
+const Error =() => {
     return (
 <div> 
 <Header/>

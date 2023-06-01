@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@100&display=swap');
 
 .Header {
-    font-family: 'Urbanist', sans-serif;
+   
     position:static;
    background-color: #0B2447 ;
     font-size: 50px;
