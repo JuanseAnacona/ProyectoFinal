@@ -1,6 +1,6 @@
 .Footer {
     /* Posicionar abajo */
-    position: absolute;
+    position: bottom;
     bottom: 0;
     /* Ocupar todo el ancho disponible */
     width: 100%;

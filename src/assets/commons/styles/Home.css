@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  section.banner {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section.banner h2 {
+    margin: 0;
+  }
+  
+  section.games {
+    padding: 40px;
+  }
+  
+  section.games h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .game-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-right: 20
+  }
