@@ -6,9 +6,10 @@ import Footer from './assets/commons/Footer'
 import Navegador from './assets/commons/Navegador'
 import Home from './Pages/Home'
 import ProductList from './Pages/juegos'
+import Error from './Pages/Error'
 
 import { Routes, Route} from 'react-router-dom';
-import Slider from "./assets/commons/Slider";
+
 
 export const App = ()=> {
 

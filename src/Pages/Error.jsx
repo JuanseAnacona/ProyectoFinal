@@ -4,7 +4,9 @@ export const Error = ()=>{
     return(
         <>
             <h1> NotFound Error 404. Page </h1>
-            <img src={"https://httpcats.com/404.jpg"} width={"100%"} height={"800px"} />
+            <img src={"https://httpcats.com/404.jpg"} width={"100%"} height={"100%"} />
         </>
     )
 }
+
+export default Error;
