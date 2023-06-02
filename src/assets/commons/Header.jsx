@@ -4,6 +4,7 @@ import logo from '/public/images/logo.png'
 
 
 
+
 const Header = () => {
     return (
         <header> 
@@ -13,8 +14,10 @@ const Header = () => {
             <div id="pagina"></div>
         </header>  
     );
+    
+
+
 }
 
 
-export default Header;
-
+export default Header

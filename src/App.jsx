@@ -7,7 +7,11 @@ import Error from "./Pages/Error";
 import Header from './assets/commons/header';
 import Footer from './assets/commons/Footer';
 
-import { Routes, Route} from 'react-router-dom';
+import './App.css'
+import Header from './assets/commons/header'
+import Footer from './assets/commons/Footer'
+import Navegador from './assets/commons/Navegador'
+import Home from './Pages/Home'
 
 
 export const App = ()=> {
