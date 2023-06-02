@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductBasededatos from './ProductBasedatos'
+import './StylesPages/Juegos.css'
 
 
 const ProductList = () => {

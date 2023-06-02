@@ -112,10 +112,12 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-top: 20px;
 }
 
 .item{
     border-radius: 10px;
+    background-color: #A5D7E8;
 }
 
 .item:hover{
