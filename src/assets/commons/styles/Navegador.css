@@ -12,6 +12,7 @@
  #navegador li{
     display: inline;
     text-align: center;
+    
    
  }
 
@@ -19,11 +20,13 @@
     padding: 10px 200px 10px 200px;
     color: white;
     text-decoration: none;
+  
     
  }
 
  #navegador li a:hover{
     background-color: #A5D7E8;
     color: #ffffff;
+    
     
  }

@@ -10,6 +10,8 @@
     min-height: 18vh;
     /* Solo para probar cómo se ve */
     background: #0B2447;
+    flex-direction: column;
+    align-items: center;
 }
 .Footer ul {
     text-align:center;
