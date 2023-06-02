@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductBasededatos from './ProductBasedatos'
 
+
 const ProductList = () => {
   return (
     <div className="container-items">

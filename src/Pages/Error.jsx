@@ -1,18 +1,10 @@
-import Header from './assets/commons/header'
-import Footer from './assets/commons/Footer'
-import Navegador from './assets/commons/Navegador'
+import React from "react";
 
-
-const Error =() => {
-    return (
-<div> 
-<Header/>
-<Navegador/>
-<h1>Error</h1>
-<Footer/>
-</div>
-
+export const Error = ()=>{
+    return(
+        <>
+            <h1> NotFound Error 404. Page </h1>
+            <img src={"https://httpcats.com/404.jpg"} width={"100%"} height={"800px"} />
+        </>
     )
 }
-
-export default Error

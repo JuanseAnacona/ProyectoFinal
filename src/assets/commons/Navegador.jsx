@@ -1,18 +1,33 @@
-import './styles/Navegador.css'
-const navegador = () => {
+import React from "react";
 
-return (
+import './styles/Navegador.css';
+import { Link } from 'react-router-dom'
 
-    <div id="navegador">
-        <ul>
-            <li><a href="App">Inicio</a></li>
-            <li><a href="juegos">Juegos</a></li>
-            <li><a href="Carrito">Carrito</a></li>
-            <li><a href="https://youtu.be/dQw4w9WgXcQ">Contacto</a></li>
-        </ul>
-    </div>
 
+
+const Navegador = ()=>{
+
+    return(
+        <>
+            <nav>
+                <Link to={"/"}>
+                    <h2>Inicio</h2>
+                </Link>
+
+                <Link to={"/juegos"}>
+                    <h2>Juegos</h2>
+                </Link> 
+
+                <Link to={"/carrito"}>
+                    <h2>Carrito</h2>
+                </Link>
+
+                <Link to={"https://youtu.be/dQw4w9WgXcQ"}>
+                    <h2>Contacto</h2>
+                </Link>
+
+            </nav>
+        </>
     )
-}
-
-export default navegador;
+};
+export default Navegador;
