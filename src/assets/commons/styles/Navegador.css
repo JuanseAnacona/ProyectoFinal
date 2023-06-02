@@ -1,4 +1,21 @@
 
-.Navegador h2 {
-  font-size: 80px;
- }
+nav {
+   display: flex;
+  justify-content: space-around;
+  background-color: #19376D;
+  padding: 20px;
+
+  
+}
+
+nav h2 {
+
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  display:inline;
+}
+
+nav h2:hover {
+  background-color: #A5D7E8;
+}
