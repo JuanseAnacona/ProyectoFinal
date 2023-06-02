@@ -11,6 +11,7 @@ import Error from './Pages/Error'
 import { Routes, Route} from 'react-router-dom';
 
 
+
 export const App = ()=> {
 
   return (
@@ -22,8 +23,6 @@ export const App = ()=> {
           <Route path = "/Juegos" element = {<ProductList/>}/>
           <Route path = "*" element = {<Error/>}/>
        </Routes>
-        
-        
         <Footer/>
         
 

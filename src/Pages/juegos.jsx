@@ -21,8 +21,8 @@ const ProductList = () => {
 					<p className="precio">${product.precio}</p>
 					<button className="btn-add-cart">Añadir al carrito</button>
 				</div>
-
             </div>
+			
         ))}</div>
   )
 }
