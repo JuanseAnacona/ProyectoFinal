@@ -1,34 +1,4 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@100&display=swap');
-
-#navegador ul{
-   font-family: 'Bebas Neue', sans-serif;
-   background-color: #19376D;
-    list-style-type: none;
-   text-align: center;
-    font-size: 50px;
-    padding: 9px;
- }
-
- #navegador_li{
-    display: inline;
-    text-align: center;
-    
-   
- }
-
- #navegador_li a {
-    padding: 10px 200px 10px 200px;
-    color: white;
-    text-decoration: none;
-  
-    
- }
-
- #navegador_li a:hover{
-    background-color: #A5D7E8;
-    color: #ffffff;
-    
-    
+.Navegador h2 {
+  font-size: 80px;
  }

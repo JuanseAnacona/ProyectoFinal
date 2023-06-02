@@ -8,6 +8,7 @@ import Home from './Pages/Home'
 import ProductList from './Pages/juegos'
 
 import { Routes, Route} from 'react-router-dom';
+import Slider from "./assets/commons/Slider";
 
 export const App = ()=> {
 
@@ -20,7 +21,8 @@ export const App = ()=> {
           <Route path = "/Juegos" element = {<ProductList/>}/>
           <Route path = "*" element = {<Error/>}/>
        </Routes>
-        <Home/>
+        
+        
         <Footer/>
         
 

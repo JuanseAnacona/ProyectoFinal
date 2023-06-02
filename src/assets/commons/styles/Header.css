@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@100&display=swap');
 
-.Header {
+Header {
    
     position:static;
    background-color: #0B2447 ;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.Header p {
+Header p {
     text-align:center;
     justify-content: space-evenly;  
     list-style-type: none; 

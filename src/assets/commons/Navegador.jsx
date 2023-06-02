@@ -1,7 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-import './styles/Navegador.css';
-import { Link } from 'react-router-dom'
 
 
 
@@ -25,7 +24,7 @@ const Navegador = ()=>{
                 <Link to={"https://youtu.be/dQw4w9WgXcQ"}>
                     <h2>Contacto</h2>
                 </Link>
-
+               
             </nav>
         </>
     )
