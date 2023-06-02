@@ -1,12 +1,11 @@
 import React from "react";
-import './App.css'
 
-import Navegador from "./assets/commons/Navegador";
-import Home from "./Pages/Home";
-import ProductList from "./Pages/juegos";
-import Error from "./Pages/Error";
-import Header from './assets/commons/header';
-import Footer from './assets/commons/Footer';
+import './App.css'
+import Header from './assets/commons/header'
+import Footer from './assets/commons/Footer'
+import Navegador from './assets/commons/Navegador'
+import Home from './Pages/Home'
+import ProductList from './Pages/juegos'
 
 import { Routes, Route} from 'react-router-dom';
 
