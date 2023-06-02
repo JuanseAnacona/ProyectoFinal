@@ -1,33 +1,35 @@
 import React, { useState } from 'react';
-import './styles/form.css'
+import './styles/Form.css'
 
 const ContactForm = () => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(true);
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
 
   const handleFormToggle = () => {
-    setShowForm(!showForm);
+    setShowForm(false);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Aquí puedes agregar la lógica para enviar los datos del formulario
     console.log('Correo:', email);
     console.log('Teléfono:', phone);
     console.log('Mensaje:', message);
+    // Restablecer los campos del formulario
     setEmail('');
     setPhone('');
     setMessage('');
-    setShowForm(false);
   };
 
   return (
     <div className="contact-form">
-      <button className="contact-btn" onClick={handleFormToggle}>
-        Contactar
-      </button>
-      {showForm && (
+      {showForm ? (
+        <button className="contact-btn" onClick={handleFormToggle}>
+          Contactar
+        </button>
+      ) : (
         <form className="form" onSubmit={handleSubmit}>
           <h2>Formulario de contacto</h2>
           <label htmlFor="email">Correo electrónico:</label>
