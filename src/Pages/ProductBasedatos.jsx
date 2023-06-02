@@ -4,7 +4,7 @@ import React from 'react';
     const ProductBasededatos = [
    
     {
-      "juego": "zelda",
+      "juego": "Zelda Skyward sword",
       "plataforma": "nintendo",
       "tipo_juego": "accion",
       "num_jugadores": "singleplayer",
@@ -15,7 +15,7 @@ import React from 'react';
       "stock": 5
     },
     {
-      "juego": "mario",
+      "juego": "Mario kart 8",
       "plataforma": "nintendo",
       "tipo_juego": "carreras",
       "num_jugadores": "multiplayer",
@@ -26,7 +26,7 @@ import React from 'react';
       "stock": 10
     },
     {
-      "juego": "animal_crossing",
+      "juego": "animal crossing",
       "plataforma": "nintendo",
       "tipo_juego": "simulacion",
       "num_jugadores": "singleplayer",
@@ -37,18 +37,18 @@ import React from 'react';
       "stock": 2
     },
     {
-      "juego": "kirby",
+      "juego": "kirby and the forgotten land",
       "plataforma": "nintendo",
       "tipo_juego": "plataformeo",
       "num_jugadores": "singleplayer",
       "accesorios": "na",
       "precio": 249900,
       "restricción_edad": 10,
-      "foto": "https://wallpaperaccess.com/full/1262807.jpg",
+      "foto": "https://kirbyandtheforgottenland.nintendo.com/assets/images/share-fb.jpg",
       "stock": 1
     },
     {
-      "juego": "assassins_creed",
+      "juego": "Assassins Creed",
     "plataforma": "playstation",
     "tipo_juego": "accion",
     "num_jugadores": "singleplayer",
@@ -59,7 +59,7 @@ import React from 'react';
     "stock": 5
     },
      {
-      "juego": "cod",
+      "juego": "Call of Duty",
     "plataforma": "playstation",
     "tipo_juego": "accion",
     "num_jugadores": "multiplayer",
@@ -70,7 +70,7 @@ import React from 'react';
     "stock": 15
     },
      {
-      "juego": "fifa",
+      "juego": "FIFA 2023",
     "plataforma": "playstation",
     "tipo_juego": "deportes",
     "num_jugadores": "multiplayer",
@@ -81,7 +81,7 @@ import React from 'react';
     "stock": 1
     },
     {
-    "juego": "ghost of tsushima",
+    "juego": "Ghost of Tsushima",
     "plataforma": "playstation",
     "tipo_juego": "accion",
     "num_jugadores": "singleplayer",
@@ -92,7 +92,7 @@ import React from 'react';
     "stock": 20
     },
     {
-    "juego": "gta",
+    "juego": "Grand Theft Auto V",
     "plataforma": "playstation",
     "tipo_juego": "sandbox",
     "num_jugadores": "multiplayer",
@@ -103,7 +103,7 @@ import React from 'react';
     "stock": 20
     },
     {
-    "juego": "overwatch2",
+    "juego": "Overwatch 2",
     "plataforma": "pc",
     "tipo_juego": "accion",
     "num_jugadores": "multiplayer",
@@ -121,22 +121,22 @@ import React from 'react';
     "accesorios": "na",
     "precio": 251000,
     "restricción_edad": 10,
-    "foto": "https://wallpaperaccess.com/full/1262807.jpg",
+    "foto": "https://www.esportmaniacos.com/wp-content/uploads/2022/03/Fortnite-scaled1.jpg",
     "stock": 10
     },
     {
-    "juego": "gangbeasts",
+    "juego": "Gang Beasts",
     "plataforma": "pc",
     "tipo_juego": "supervivencia",
     "num_jugadores": "multiplayer",
     "accesorios": "na",
-    "precio": 154600,
+    "precio": 80000,
     "restricción_edad": "na",
     "foto": "https://gaminguardian.com/wp-content/uploads/2018/01/Gang-Beasts-portada.png",
     "stock": 30
     },
     {
-    "juego": "gow",
+    "juego": "God of War",
     "plataforma": "pc",
     "tipo_juego": "accion",
     "num_jugadores": "singleplayer",
